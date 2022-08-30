@@ -25,7 +25,7 @@ mongoose
 
 
 app.get("/",(req,res)=>{
-  res.send("Server start")
+  res.send("Server start success")
 })  
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
